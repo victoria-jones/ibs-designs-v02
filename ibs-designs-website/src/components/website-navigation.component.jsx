@@ -1,3 +1,5 @@
+import '../styles/components/website-navigation.styles.scss';
+
 import { Link } from 'react-router-dom';
 
 //social media icons
