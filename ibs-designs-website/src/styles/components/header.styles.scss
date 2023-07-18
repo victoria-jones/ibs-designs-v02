@@ -1,0 +1,14 @@
+@import "../main.styles.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    background-color: pink;
+
+    &--left {
+        display: flex;
+    }
+}
