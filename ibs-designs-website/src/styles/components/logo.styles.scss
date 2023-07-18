@@ -1,0 +1,38 @@
+@import "../main.styles.scss";
+
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text,
+    &__shiddonaut {
+        position: absolute;
+        transition: all 1s;
+        align-self: center;
+    }
+
+    &__text {
+        max-height: 9.5rem;
+    }
+
+    &__shiddonaut {
+        max-height: 6rem;
+    }
+
+    //hover spin
+    &:hover > &__shiddonaut{
+        transform: rotate(360deg);
+    }
+    &:hover > &__text {
+        transform: rotate(-360deg);
+    }
+
+    &__header {
+        background-color: yellow;
+        height: 9.5rem;
+        width: 9.5rem;
+    }
+
+}

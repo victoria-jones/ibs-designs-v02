@@ -1,0 +1,17 @@
+@import "../main.styles.scss";
+
+.website-navigation {
+    &__main {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    &__item {
+        margin-left: 1rem;
+    }
+}
