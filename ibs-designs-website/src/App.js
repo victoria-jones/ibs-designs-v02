@@ -7,6 +7,7 @@ import Home from './pages/home.page';
 import About from './pages/about.page';
 import Contact from './pages/contact.page';
 import Shop from './pages/shop.page';
+import Footer from './components/footer.component';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="shop" element={<Shop />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }

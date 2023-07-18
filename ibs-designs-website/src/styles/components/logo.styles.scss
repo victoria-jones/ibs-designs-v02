@@ -19,20 +19,10 @@
 
     &__shiddonaut {
         max-height: 6rem;
-        //padding-top: 12%;
-        //padding-left: 14%;
-        //top: 0%;
-        //left: 14%;
-
-        //background-color: pink;
     }
 
-    //do spinny animation on hover
-        //but do not do it infinitely, let it spin
-        //about 2 times then stop
+    //hover spin
     &:hover > &__shiddonaut{
-
-        //transform-origin: 86% 82%;
         transform: rotate(360deg);
     }
     &:hover > &__text {

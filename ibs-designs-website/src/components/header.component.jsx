@@ -28,14 +28,12 @@ export default function Header () {
 
     const socialLinks = [
         "https://www.tiktok.com/@ibs.designs",
-        "contact"
+        "#"
     ];
 
     const socialIcons = [
         "tiktok",
-        "instagram",
-        "youtube",
-        "email"
+        "instagram"
     ];
 
     const closeMenu = () => {
