@@ -29,7 +29,8 @@
         transform: rotate(-360deg);
     }
 
-    &__header {
+    &__header,
+    &__footer {
         background-color: yellow;
         height: 9.5rem;
         width: 9.5rem;
