@@ -25,7 +25,7 @@ export default function Footer () {
 
             <div className="footer__socialnav">
                 <h2 className="footer__socialnav__header">
-                    // FOLLOW //
+                    // <span className="redtext">FOLLOW</span> //
                 </h2>
                 <WebsiteNavigation
                     links={links}
