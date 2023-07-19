@@ -17,15 +17,19 @@ export default function Footer () {
     ]
     return(
         <footer className="footer">
-            <p>footer</p>
-            <Link to ="/">
-                <Logo logoClass="footer" />
-            </Link>
-            <WebsiteNavigation
-                links={links}
-                socialNav
-                socialNavIcon={socialIcons}
-            />
+            <div className="footer__logo">
+                <Link to ="/">
+                    <Logo logoClass="footer" />
+                </Link>
+            </div>
+
+            <div className="footer__socialnav">
+                <WebsiteNavigation
+                    links={links}
+                    socialNav
+                    socialNavIcon={socialIcons}
+                />
+            </div>
         </footer>
     );
 }
